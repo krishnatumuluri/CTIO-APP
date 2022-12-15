@@ -1,0 +1,47 @@
+.footer {
+    background: #283a7b;
+    border-radius: 0px 400px 0px 0px;
+    margin-right: 160px;
+    padding: 36px;
+    padding-left: 160px;
+    .contact {
+      
+      font-style: normal;
+      font-weight: 400;
+      font-size: 26px;
+      line-height: 30px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #fff;
+    }
+    .copyright {
+      
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      /* identical to box height */
+      color: #8191c9;
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .footer{
+      margin-right: 10px;
+      padding-left: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 765px) {
+    .footer{
+      margin-right: 10px;
+      padding-left: 10px;
+      border-radius: 0 !important;
+      .contact{
+        font-size: 22px;
+      }
+    }
+  }
+  
+  
